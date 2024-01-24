@@ -16,9 +16,9 @@ class BookOnlineRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "table_code" => ["nullable"],
-            "user_id" => ["nullable"],
-            "date" => ["nullable", "date_format:Y-m-d H:i:s"],
+            "table_code" => ["required"],
+            "user_id" => ["required"],
+            "date" => ["required", "date_format:Y-m-d H:i:s"],
         ];
     }
 

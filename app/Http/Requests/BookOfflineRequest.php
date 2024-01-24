@@ -16,7 +16,7 @@ class BookOfflineRequest extends FormRequest
     public function rules(): array
     {
         return [
-            "table_code" => ["nullable"],
+            "table_code" => ["required"],
         ];
     }
 
