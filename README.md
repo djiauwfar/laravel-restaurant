@@ -15,8 +15,8 @@ Laravel Restaurant is a dining establishment located in Singapore, operating fro
 1. Ensure that PHP is installed on your computer; the recommended version is PHP 8.2.4.
 2. Verify that Composer is also installed on your computer, with a suggested version of 2.5.5.
 3. Once you have cloned this repository, copy the provided .env file attached in the email.
-4. Run composer install and patiently wait for the installation to complete.
-5. Execute php artisan serve.
+4. You can now prepare the database ( MYSQL ), based on the .env file.
+5. Run composer install and patiently wait for the installation to complete, and execute php artisan serve.
 6. Run the migration by using php artisan migrate.
 7. Initiate the unit tests with php artisan test.
 8. Perform a migration rollback to clear data by using php artisan migrate:rollback.
